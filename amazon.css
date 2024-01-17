@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/*nav bar*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+}
+/*box 1*/
+.navlog{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/*border*/
+.border{
+    border: 2px solid transparent;
+}
+.border :hover{
+    
+    border: 1.5px solid white;
+}
+
+
+/*box 2*/
+.addr-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.addr-second{
+    color:white;
+    font-size: 3rem;
+    
+}
+.addr-icon{
+    display: flex;
+    align-items: center;
+}
+.nvaddress:hover{
+    border: 1.5px solid white;
+}
+
+/* box 3*/
+.navsearch{
+    height: 40px;
+    width: 620px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navsearch:hover{
+    border-radius: 6.5px;
+    border: 3px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    font-size: 1rem;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    height: 38px;
+    border: none;
+    font-size: 1rem;
+}
+.searchlogo{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+/*box 4*/
+.nv-icon{
+    height: 33px;
+    width: 55px;
+}
+.nicon{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhkDv7DbIrwVCA8DZVAjKNP8Snmjcw1zfA29TwB76hQ&s");
+    background-size: cover;
+    height: 16px;
+    width: 21px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.lang{
+    margin-left: 2px;
+    width: 40px;
+    height: 16px;
+    color: #0f1111;
+    font-size: 1rem;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.navnation{
+    height: 50px;
+    width: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navnation:hover{
+    border: 1.5px solid white;
+}
+
+
+/*box 5 and 6*/
+span{
+    font-size: 0.7rem;
+    font-weight: 550;
+    border: none;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+}
+.nav-signin{
+    font-weight: 700;
+}
+.nav-signin:hover{
+    border: 1.5px solid white;
+}
+
+/* box 7*/
+.navcart{
+    display: flex;
+    font-size: 0.9rem;
+}
+.carttxt{
+    margin-top: 6px;
+    font-weight: 700;
+}
+.navcart i{
+    font-size: 1.5rem;
+}
+/* .navcart :hover{
+    border: 1.5px solid white;
+} */
+
+
+/*** header 2***/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.paneloptions p{
+    font-size: 14px;
+    justify-content: center;
+    display: inline;
+    margin-left: 10px;
+}
+.paneloptions{
+    margin-left: 4px;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+
+
+.deals{
+    height: 38px;
+    width: 400px;
+}
+.dealsicon{
+    background-image: url("https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg");
+    height: 39px;
+    background-size: cover;
+}
+
+
+/*Hero section*/
+.heroimage{
+    height: 300px;
+    background-size: cover;
+}
+
+/*main shopping*/
+.mainshopping{
+    /* height: 1000px; */
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boxcontent{
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+}
+h2{
+    height: 54px;
+    width: 340px;
+    tab-size: 21px;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    /* text-align: left; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.bottom{
+    height: 36px;
+    width: 140;
+}
+
+/*content images*/
+
+.boximg1_1{
+    height: 102px;
+    width: 163px;
+    margin-left: 0.5rem;
+}
+.mainimgbody{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.boximg1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    height: 102px;
+    width: 155px;
+    background-size: cover;
+}
+.imgdis{
+    font-size: 12px;
+}
+.boximg2{
+    margin-top: 2.4rem;
+    display: flex;
+}
+/*box footer*/
+.boxfooter{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #007185;
+    ;
+}
+
+
+/*footer*/
+
+.footer1{
+    /* margin-top: 0.85rem; */
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #37475a;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+
+}
+ul{
+    margin-top: 20px;
+}
+.footer2 a{
+    display: block;
+    margin-top: 0.82rem;
+    font-size: 14px;
+    color: #DDDDDD;
+}
+ul p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer3{
+    margin-top: 0.2px;
+    height: 68px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot3img{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsI2zuzObmC0JJO0lYxgA0zJek9wFGVO4z5PFnQhZSVL34tWcH");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footer4{
+    height: 76px;
+    background-color: #131a22;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 20px;
+    margin-bottom: 5px;
+    word-spacing: 5px;
+}
+.copyright{
+    padding-top: 15px;
+    
+}
+
+a{
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
